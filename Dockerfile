@@ -36,4 +36,4 @@ RUN g++-4.8 staticnode.cpp \
     -L. \
     -o staticnode
 
-RUN ./staticnode -e "console.log('Hello from node.js ' + process.version)"
+RUN ./staticnode
